@@ -1,0 +1,22 @@
+[general]
+auth_url = 'https://stageauth.equilend.com/auth'
+realm_name = '1Source'
+
+[endpoints]
+base = 'https://stageapi.equilend.com/v1/ledger/'
+parties = 'https://stageapi.equilend.com/v1/ledger/parties'
+events = 'https://stageapi.equilend.com/v1/ledger/events'
+agreements = 'https://stageapi.equilend.com/v1/ledger/agreements'
+loans = 'https://stageapi.equilend.com/v1/ledger/loans'
+rerates = 'https://stageapi.equilend.com/v1/ledger/rerates'
+returns = 'https://stageapi.equilend.com/v1/ledger/returns'
+recalls = 'https://stageapi.equilend.com/v1/ledger/recalls'
+buyins = 'https://stageapi.equilend.com/v1/ledger/buyins'
+
+[authentication]
+auth_type = 'auth_type'
+grant_type = 'grant_type'
+client_id = 'client_id'
+username = 'username'
+password = 'password'
+client_secret = 'client_secret'
